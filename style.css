@@ -37,3 +37,15 @@ ul {
 #nav-icons {
     padding: 5px;
 }
+
+.onoffswitch-label {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    height: 14px;
+    padding: 0;
+    line-height: 14px;
+    background-color: #cccccc;
+    border: 0px solid #fff;
+    border-radius: 20px;
+}
