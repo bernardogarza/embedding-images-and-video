@@ -15,7 +15,7 @@ i {
 
     display: flex;
 }
-ul {
+#nav-bar > ul {
     list-style: none;
     margin: 0;
     padding: 0;
