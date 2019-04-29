@@ -10,7 +10,11 @@ img {
 i {
     font-size: 150%;
 }
+#nav-bar{
+    height: 56px;
 
+    display: flex;
+}
 ul {
     list-style: none;
     margin: 0;
