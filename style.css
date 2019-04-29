@@ -127,3 +127,42 @@ h1{
     padding-left: 80px;
 }
 
+#description{
+    width: 1000px;
+}
+
+section{
+    /* float: left;
+    width: 30%; */
+}
+
+section > i{
+    font-size: 50px;
+}
+
+section > h3{
+    font-size: 16px;
+}
+
+#video-text{
+    float: right;
+}
+
+#leftbox { 
+    float:left;  
+    background:Red; 
+    width:7%; 
+    height:60px; 
+} 
+#middlebox{ 
+    float:left;  
+    background:Green; 
+    width:78%; 
+    height:60px; 
+} 
+#rightbox{ 
+    float:right; 
+    background:blue; 
+    width:15%; 
+    height:60px; 
+} 
