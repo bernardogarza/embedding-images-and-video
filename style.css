@@ -49,3 +49,29 @@ input {
 #nav-icons {
 text-align: right;
 }
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.form-control {
+    width: 600px;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: black;
+    background-color: white;
+}
+
+#sign-in {
+    padding: 5px 20px;
+    color: blue;
+    background-color: white;
+    border-color: blue;
+}
