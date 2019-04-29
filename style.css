@@ -129,6 +129,7 @@ h1{
 
 #description{
     width: 1000px;
+    vertical-align: middle;
 }
 
 section{
@@ -150,19 +151,61 @@ section > h3{
 
 #leftbox { 
     float:left;  
-    background:Red; 
     width:7%; 
     height:60px; 
 } 
 #middlebox{ 
     float:left;  
-    background:Green; 
-    width:78%; 
+    width:75%; 
     height:60px; 
 } 
 #rightbox{ 
+    vertical-align: middle;
     float:right; 
-    background:blue; 
-    width:15%; 
+    width:18%; 
+    height:60px; 
+}
+
+#subscribe-button {
+    background-color: red;
+    color: white;
+    font-size: 14px;
+    margin-top: 5px;
+    padding: 8px 20px;
+}
+
+#video-text {
+    padding-left: 80px;
+    float: left;
+    width: 1000px;
+}
+
+#comment-section {
+    padding-left: 80px;
+    float: left;
+    width: 1000px;
+}
+
+#comments-info {
+    width: 1000px;
+}
+
+#left-comment-section{ 
+    float:left;  
+    width:12%; 
     height:60px; 
 } 
+#right-comment-section{ 
+    float:right; 
+    width:88%; 
+    height:60px; 
+    font-size: 15px;
+}
+
+#right-comment-section > i {
+    font-size: 17px;
+}
+
+#comment-box > i {
+    font-size: 35px;
+}
