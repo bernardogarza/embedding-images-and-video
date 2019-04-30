@@ -3,7 +3,7 @@ body {
     padding: 0;
 }
 
-img {
+.youtube-logo {
     width: 100px;
 }
 
@@ -282,4 +282,25 @@ section > h3{
   
   .slider.round:before {
     border-radius: 50%;
-  } 
+  }
+
+.leftpart-rightbox {
+    width: 30%;
+    float: left;
+    height: 100px;
+}
+
+.thumbnail-image {
+    width: 168px;
+    height: 94px;
+}
+
+.rightpart-rightbox {
+    width: 70%;
+    float: right;
+    height: 100px;
+}
+
+.metadata-title {
+    font-size: 1.4rem;
+}
