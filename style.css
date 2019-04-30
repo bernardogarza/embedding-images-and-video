@@ -291,7 +291,7 @@ section > h3{
 }
 
 .thumbnail-image {
-    width: 168px;
+    width: 162px;
     height: 94px;
 }
 
@@ -303,4 +303,20 @@ section > h3{
 
 .metadata-title {
     font-size: 1.4rem;
+    font-weight: bold;
+    margin-top: 2px;
+    margin-left: 26px;
+}
+
+.metadata-title > a {
+    text-decoration: none;
+}
+
+.metadata-channel{
+    font-weight: normal;
+    color: gray;
+    font-size: 12px;
+    letter-spacing: .1px;
+    margin-left: 26px;
+
 }
