@@ -68,7 +68,23 @@ li{
 }
 
 .form-control {
-    width: 600px;
+    width: 800px;
+    margin-top: -2px;
+    pointer-events: none;
+}
+
+.search-button{
+    height: 33px;
+    width: 80px;
+    margin-left: -5px;
+    border: 1px solid #929292;
+    border-radius: 2px;
+    background-color: #e6e6e6;
+}
+
+.search-button > i {
+    padding: 3px;
+    font-size: 15px;
 }
 
 a {
@@ -85,6 +101,11 @@ a:hover {
     color: blue;
     background-color: white;
     border-color: blue;
+    pointer-events: none;
+}
+
+#sign-in:hover {
+    background-color: rgba(255, 255, 255, 0);
 }
 
 #media{
