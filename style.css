@@ -97,6 +97,7 @@ a:hover {
     padding-left: 80px;
     height: 80px;
     width: 1000px;
+    margin-bottom: 15px;
 }
 
 h1{
@@ -178,6 +179,7 @@ section > h3{
     padding-left: 80px;
     float: left;
     width: 1000px;
+    margin: 15px;
 }
 
 #comment-section {
@@ -193,12 +195,12 @@ section > h3{
 #left-comment-section{ 
     float:left;  
     width:12%; 
-    height:60px; 
+    height:25px; 
 } 
 #right-comment-section{ 
     float:right; 
     width:88%; 
-    height:60px; 
+    height:25px; 
     font-size: 15px;
 }
 
@@ -308,6 +310,22 @@ section > h3{
     margin-left: 40px;
 }
 
+.metadata-title2 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-top: 2px;
+    margin-left: 25px;
+}
+
+.metadata-channel2 {
+    font-weight: normal;
+    color: gray;
+    font-size: 12px;
+    letter-spacing: .1px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
 .metadata > a {
     text-decoration: none;
 }
@@ -336,7 +354,7 @@ section > h3{
     /* margin: 0 auto; This will center the border. */
     width: 100%; /* Change this to whatever width you want. */
     padding-top: 100px; /* This creates some space between the element and the border. */
-    border-bottom: .25px solid rgba(180, 180, 180, 0.651); /* This creates the border. Replace black with whatever color you want. */
+    border-bottom: 1px solid rgb(0, 0, 0); /* This creates the border. Replace black with whatever color you want. */
 }
 
 
@@ -349,4 +367,13 @@ section > h3{
 
 .rightpart-rightbox{
     padding-right: 60px;
+}
+
+.underline-left:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    /* margin: 0 auto; This will center the border. */
+    width: 100%; /* Change this to whatever width you want. */
+    padding-top: 30px; /* This creates some space between the element and the border. */
+    border-bottom: .25px solid rgba(138, 137, 137, 0.89); /* This creates the border. Replace black with whatever color you want. */
 }
