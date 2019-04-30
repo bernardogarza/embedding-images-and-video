@@ -114,7 +114,7 @@ h1{
     justify-content: space-between;
     display: flex;
     align-items: center;
-    font-size: 12px;
+    font-size: 11px;
     color: #606060;
     width: 250px;
     float: right;
@@ -173,6 +173,8 @@ section > h3{
     font-size: 14px;
     margin-top: 5px;
     padding: 8px 20px;
+    border-radius: 3px;
+    border: 0;
 }
 
 #video-text {
@@ -186,7 +188,9 @@ section > h3{
     padding-left: 80px;
     float: left;
     width: 1000px;
+    margin-bottom: 50px;
 }
+
 
 #comments-info {
     width: 1000px;
@@ -195,12 +199,12 @@ section > h3{
 #left-comment-section{ 
     float:left;  
     width:12%; 
-    height:25px; 
+    height:40px; 
 } 
 #right-comment-section{ 
     float:right; 
     width:88%; 
-    height:25px; 
+    height:40px; 
     font-size: 15px;
 }
 
@@ -208,8 +212,13 @@ section > h3{
     font-size: 17px;
 }
 
+#comment-box{
+    padding-top: 10px;
+}
+
 #comment-box > i {
     font-size: 35px;
+    padding-right: 10px;
 }
 
 #left-box{
@@ -354,7 +363,7 @@ section > h3{
     /* margin: 0 auto; This will center the border. */
     width: 100%; /* Change this to whatever width you want. */
     padding-top: 100px; /* This creates some space between the element and the border. */
-    border-bottom: 1px solid rgb(0, 0, 0); /* This creates the border. Replace black with whatever color you want. */
+    border-bottom: .25px solid rgba(138, 137, 137, 0.89); /* This creates the border. Replace black with whatever color you want. */
 }
 
 
@@ -377,3 +386,24 @@ section > h3{
     padding-top: 30px; /* This creates some space between the element and the border. */
     border-bottom: .25px solid rgba(138, 137, 137, 0.89); /* This creates the border. Replace black with whatever color you want. */
 }
+
+.up-right{
+    height: 35px;
+}
+
+.up-next{
+    width: 65%;
+    float: left;
+    vertical-align: middle;
+
+}
+
+.autoplay{
+    width: 35%;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 60px;
+    vertical-align: middle;
+}
+
