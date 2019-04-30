@@ -56,7 +56,7 @@ li{
 }
 
 .navbar{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.945);
     box-shadow: 0px 0px 0px 3px rgba(226, 226, 226, 0.25);
     height: 50px;
 }
@@ -71,14 +71,19 @@ li{
     width: 800px;
     margin-top: -2px;
     pointer-events: none;
+    border-radius: 2px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
 
 .search-button{
-    height: 33px;
+    height: 33.5px;
     width: 80px;
     margin-left: -5px;
     border: 1px solid #929292;
     border-radius: 2px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
     background-color: #e6e6e6;
 }
 
@@ -96,6 +101,15 @@ a:hover {
     background-color: white;
 }
 
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0);
+    } 
+
+.sign-in-padding{
+    margin-top: -5px;
+}
+
 #sign-in {
     padding: 5px 20px;
     color: blue;
@@ -106,6 +120,8 @@ a:hover {
 
 #sign-in:hover {
     background-color: rgba(255, 255, 255, 0);
+    box-shadow: none;
+    pointer-events: none;
 }
 
 #media{
