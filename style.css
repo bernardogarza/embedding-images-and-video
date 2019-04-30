@@ -125,13 +125,12 @@ a:hover {
 }
 
 #media{
-    padding-left: 80px;
     padding-top: 65px;
 }
 
 .title{
     margin: 0;
-    padding-left: 80px;
+    padding-left: 135px;
     height: 80px;
     width: 1000px;
     margin-bottom: 15px;
@@ -141,10 +140,12 @@ h1{
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 2px;
+    text-align: left;
 }
 
 #views{
     color: rgb(100, 100, 100);
+    text-align: left;
 }
 
 #video-options{
@@ -181,6 +182,7 @@ section > i{
 
 section > h3{
     font-size: 16px;
+    text-align: left;
 }
 
 #video-text{
@@ -219,6 +221,7 @@ section > h3{
     float: left;
     width: 1000px;
     margin: 15px;
+    text-align: left;
 }
 
 #comment-section {
@@ -226,6 +229,7 @@ section > h3{
     float: left;
     width: 1000px;
     margin-bottom: 50px;
+    text-align: left;
 }
 
 
@@ -354,6 +358,7 @@ section > h3{
     font-weight: bold;
     margin-top: 2px;
     margin-left: 40px;
+    text-align: left;
 }
 
 .metadata-title2 {
@@ -361,6 +366,7 @@ section > h3{
     font-weight: bold;
     margin-top: 2px;
     margin-left: 25px;
+    text-align: left;
 }
 
 .metadata-channel2 {
@@ -370,6 +376,7 @@ section > h3{
     letter-spacing: .1px;
     margin-left: 25px;
     cursor: pointer;
+    text-align: left;
 }
 
 .metadata > a {
@@ -383,6 +390,7 @@ section > h3{
     letter-spacing: .1px;
     margin-left: 40px;
     cursor: pointer;
+    text-align: left;
 }
 
 .no-underline > .metadata{
@@ -404,12 +412,11 @@ section > h3{
 }
 
 
-/* .content{
-    max-width: 1000px;
-    display: inline-block;
+.content{
+    width: 1700px;
     text-align: center;
     margin: 0 auto;
-} */
+}
 
 .rightpart-rightbox{
     padding-right: 60px;
@@ -432,7 +439,7 @@ section > h3{
     width: 65%;
     float: left;
     vertical-align: middle;
-
+    text-align: left;
 }
 
 .autoplay{
