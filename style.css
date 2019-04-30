@@ -88,6 +88,7 @@ li{
 .search-button > i {
     padding: 3px;
     font-size: 15px;
+    margin: 0 auto;
 }
 
 a {
@@ -114,6 +115,8 @@ a:hover {
     background-color: white;
     border-color: blue;
     pointer-events: none;
+    margin-top: -5px;
+
 }
 
 #sign-in:hover {
@@ -418,7 +421,7 @@ section > h3{
 
 
 .content{
-    width: 1700px;
+    width: 100%;
     text-align: center;
     margin: 0 auto;
 }
