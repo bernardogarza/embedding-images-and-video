@@ -8,7 +8,7 @@ body {
 }
 
 i {
-    font-size: 150%;
+    font-size: 15px;
 }
 
 #nav-bar{
@@ -19,7 +19,7 @@ i {
 
 #nav-bar > ul {
     list-style: none;
-    margin: 0;
+    margin: 0 30px;
     padding: 0;
     position: fixed;
     overflow: hidden;
@@ -83,6 +83,14 @@ li{
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
     background-color: #e6e6e6;
+}
+
+.search-icon{
+    background-color: rgb(202, 202, 202);
+    padding: 9px 18px;
+    margin-left: -4px;
+    cursor: pointer;
+
 }
 
 .search-button > i {
@@ -173,11 +181,6 @@ h1{
     vertical-align: middle;
     padding-left: 135px;
     padding-right: 135px;
-}
-
-section{
-    /* float: left;
-    width: 30%; */
 }
 
 section > i{
