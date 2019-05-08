@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Nav bar section */
@@ -102,6 +103,7 @@
 
 .top-channel-info-description{
     display: flex;
+    align-items: center;
 }
 
 .channel-icon-name{
@@ -109,23 +111,20 @@
     justify-content: space-between;
 }
 
-.top-channel-info-description:nth-of-type(3){
-    justify-content: flex-end;
-}
-
 .video-title {
-    font-size: 22px;
+    font-size: 18px;
     margin: 20px 0 10px;
 }
 
 .video-views{
-    font-size: 17px;
+    font-size: 16px;
 }
 
 .video-views-options{
     color: #606060;
     margin: 5px 0 20px;
     border-bottom: 1px solid rgb(207, 207, 207);
+    padding-bottom: 15px;
 }
 
 .video-options i{
@@ -150,7 +149,10 @@
 }
 
 .subscribe-button button{
-    background-color: #CB0000;
+    background-color: #ff0000;
+    border: none;
+    border-radius: 2px;
     color: white;
     font-size: 20px;
+    padding: 10px 20px;
 }
