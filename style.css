@@ -28,6 +28,7 @@
     font-size: 22px;
     margin: 0 10px;
     cursor: pointer;
+    color: #606060;
 }
 
 .page-logo img {
@@ -40,11 +41,63 @@
 #search-bar{
     width: 600px;
     height: 25px;
+    border-radius: 0;
+    border: .5px solid rgb(199, 199, 199);
 }
 
 .search-button i{
     background-color: rgb(236, 236, 236);
-    padding: 3.6px 25px;
+    padding: 6.6px 25px;
     margin: 0;
     border: 1px solid rgb(199, 199, 199);
+    font-size: 15px;
+    border-radius: 0;
 }
+
+.signin-button button{
+    color: #065fd4;
+    border-radius: 0;
+    border: .5px solid #065fd4;
+    padding: 10px 20px;
+    background-color: white;
+    cursor: pointer;
+
+}
+
+/* Container */
+
+.container{
+    display: flex;
+    padding: 30px 100px;
+}
+
+.left-column{
+    width: 65%;
+}
+
+.right-column{
+    width: 35%;
+}
+
+.iframe{
+    display: flex;
+    justify-content: center;
+}
+
+.video-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.video-views-options, .video-options{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.channel-info-description{
+    display: flex;
+}
+
+
+
