@@ -206,3 +206,37 @@
 .add-comment {
     border-bottom: 1px solid #979e97;
 }
+
+.comment{
+    display: flex;
+    flex-direction: column;
+}
+
+.comment p:nth-of-type(1){
+    font-size: 14px;    
+}
+
+.comment p:nth-of-type(3){
+    font-size: 14px;
+    color: #909090;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+.comment p:nth-of-type(3) span:hover{
+    color:#252525
+}
+
+.comment p i{
+    color: #909090;
+    font-size: 16px;
+    padding-left: 15px;
+    padding-top: 13px;
+    padding: 0;
+    margin-right: 0;
+}
+
+.comment p i:hover{
+    color:#252525  
+}
+
