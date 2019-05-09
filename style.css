@@ -10,7 +10,10 @@
     height: 50px;
     width: 100%;
     position: fixed;
-    background-color: rgba(255, 255, 255, 0.883);
+    background-color: rgba(255, 255, 255, 0.932);
+    -webkit-box-shadow: 0px 2px 6px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 6px -5px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 3px -4px rgba(0,0,0,0.75);
 }
 
 .left-section,
@@ -72,7 +75,7 @@
 
 .container{
     display: flex;
-    padding: 30px 100px;
+    padding: 80px 100px;
 }
 
 .left-column{
@@ -338,6 +341,7 @@
     display: flex;
     align-items: center;
     font-size: 13px;
+    z-index: -1;
 }
 
 .next-video{
