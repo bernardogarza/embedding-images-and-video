@@ -8,6 +8,9 @@
     display: flex;
     justify-content: space-between;
     height: 50px;
+    width: 100%;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.883);
 }
 
 .left-section,
@@ -335,4 +338,32 @@
     display: flex;
     align-items: center;
     font-size: 13px;
+}
+
+.next-video{
+    border-bottom: 1px solid rgb(207, 207, 207);
+    margin-bottom: 13px;
+}
+
+.video-box{
+    display:flex;
+    margin: 5px 8px;
+}
+
+.video-thumbnail-info{
+    padding-left: 8px;
+}
+
+.video-thumbnail-info h3{
+    font-size: 14px;
+}
+
+.video-thumbnail-info h5{
+    font-size: 13px;
+    color: gray;
+    font-weight: normal;
+}
+.video-thumbnail-info p{
+    font-size: 13px;
+    color: gray;
 }
