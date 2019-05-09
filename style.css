@@ -156,3 +156,53 @@
     font-size: 20px;
     padding: 10px 20px;
 }
+
+.info-text-area{
+    border-bottom: 1px solid rgb(207, 207, 207);
+}
+
+.video-description {
+    padding: 15px 350px 20px 60px;
+}
+
+.video-description p:nth-of-type(2){
+    color: #979e97;
+    margin: 10px 0;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.comments-info {
+    display:flex;
+    margin: 20px 0;
+}
+
+.comments-info div {
+    padding: 0 15px;
+}
+
+.comments-order{
+    color: #979e97;
+}
+
+.put-your-comment {
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.put-your-comment div i {
+    font-size: 35px;
+    color: #065fd4;
+    margin-right: 15px;
+}
+
+.put-your-comment div input {
+    width: 800px;
+    border: none;
+    font-size: 16px;
+}
+
+.add-comment {
+    border-bottom: 1px solid #979e97;
+}
